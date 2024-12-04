@@ -1,0 +1,21 @@
+1. Cambiar las tablas de la base de datos por nombres que comiencen con mayúscula, por ejemplo:
+    users --> Users
+    vehicles --> Vehicles
+
+2. Las operaciones de CRUD que se realizan en función de un CAMPO de la tabla, por ejemplo el DELETE que generalmente se realiza mediante un ID, se mantiene esta generalidad o se cambia a otro campo, por ejemplo en Vehicles según la PLACA del vehículo?
+
+3. En los modelos, más precisamente en la implementación de los métodos, cuando se trata de los tipos, tengo que utilizar las interfaces o el modelo en sí mismo (instancias de la clase)?
+
+4.
+// NECESITO:
+// una base de datos..
+// autenticación de usuarios
+// rutas
+
+5. Manejar TODOS los casos de errores de manera apropiada (personalizada?), ya que están manejados pero sin una implementación correcta. CHEQUEAR SEGURIDAD: no debemos enviar datos sensibles sobre posibles errores al FRONTEND.
+
+6. Chequear cómo serán las rutas de la API. Actualmente están definidas como:
+    /users
+    /vehicles
+
+7. El enumerado `Role` del usuario

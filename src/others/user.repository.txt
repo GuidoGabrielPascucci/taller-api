@@ -1,0 +1,17 @@
+// import {  } from "";
+
+// const { Schema } = new DBLocal({ path: './db' })
+
+// const User = Schema('User', {
+
+// })
+
+// export class UserRepository {
+
+//     // se puede hacer inyección de dependencias
+//     static create({username, password}) {}
+//     static login({username, password}) {}
+
+//     // mismo contrato
+//     // parámetros de entrada y retorno deben ser el mismo contrato...
+// }

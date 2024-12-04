@@ -1,0 +1,19 @@
+version: "3"
+services:
+    api-node:
+        build: .
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./src:/usr/src/app/src
+    db-mysql:
+        image: mysql:8
+        ports:
+            - "3306:3306"
+        environment:
+            - MYSQL_ROOT_PASSWORD=1password
+        volumes:
+            - db_data:/var/lib/mysql
+            - ./init-db:/docker-entrypoint-initdb.d
+volumes:
+    db_data:
